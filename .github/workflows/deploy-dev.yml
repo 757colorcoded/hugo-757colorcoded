@@ -2,9 +2,9 @@ name: Hugo S3
 
 on:
   push:
-    branches: [ dev ]
+    branches: [ main ]
   pull_request:
-    branches: [ dev ]
+    branches: [ main ]
 
 jobs:
   build:
@@ -12,8 +12,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check out dev
-        uses: actions/checkout@dev
+      - name: Check out main
+        uses: actions/checkout@main
           
       - name: Deploy site
         uses: plopcas/hugo-s3-action@v1.3.0
