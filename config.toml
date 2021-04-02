@@ -12,6 +12,11 @@ disqusShortname = "educenter" # get your shortname form here : https://disqus.co
 # disable language
 disableLanguages = [] # desable language from here
 
+######################## deployment configuration ####################
+[deployment]
+[[deployment.targets]]
+name = "s3deployment"
+URL = "s3://test.757colorcoded.org"
 
 ############################# Plugins ##############################
 
