@@ -17,6 +17,7 @@ disableLanguages = [] # disable language from here
 [[deployment.targets]]
 name = "s3deployment"
 URL = "s3://test.757colorcoded.org"
+cloudFrontDistributionID = "E3EJVQ9UU9P37R"
 
 
 ############################# Plugins ##############################
