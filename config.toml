@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "http://test.757colorcoded.org"
+baseURL = "https://test.757colorcoded.org"
 title = "757ColorCoded"
 theme = "educenter"
 themesDir = "./themes/"
