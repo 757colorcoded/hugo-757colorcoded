@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "http://test.757colorcoded.org"
+baseURL = "https://test.757colorcoded.org"
 title = "757ColorCoded"
 theme = "educenter"
 themesDir = "./themes/"
@@ -17,6 +17,7 @@ disableLanguages = [] # disable language from here
 [[deployment.targets]]
 name = "s3deployment"
 URL = "s3://test.757colorcoded.org"
+cloudFrontDistributionID = "E3EJVQ9UU9P37R"
 
 
 ############################# Plugins ##############################
