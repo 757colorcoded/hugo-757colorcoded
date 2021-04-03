@@ -1,6 +1,5 @@
 ######################## default configuration ####################
 baseURL = "http://test.757colorcoded.org"
-languageCode = "en-us"
 title = "757ColorCoded"
 theme = "educenter"
 themesDir = "./themes/"
