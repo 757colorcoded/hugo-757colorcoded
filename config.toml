@@ -1,16 +1,16 @@
 ######################## default configuration ####################
-baseURL = "http://examplesite.org"
+baseURL = "http://757ColorCoded.org"
 title = "757ColorCoded"
 theme = "educenter"
 themesDir = "./themes/"
 # post pagination
-paginate = "6"
+paginate = "4"
 # post excerpt
-summaryLength = "10"
+summaryLength = "37"
 # disqus short name
 disqusShortname = "educenter" # get your shortname form here : https://disqus.com
 # disable language
-disableLanguages = [] # desable language from here
+disableLanguages = ["fr"] # desable language from here
 
 
 ############################# Plugins ##############################
@@ -47,11 +47,11 @@ link = "plugins/google-map/gmap.js"
 logo = "images/logo.png"
 # Meta data
 description = "This is meta description"
-author = "Themefisher"
+author = "757ColorCoded Web Team"
 # contact info
-address = "9567 Turner Trace Apt. BC C3G8A4"
-mobile = "+211234565523"
-email = "info@educenter.com"
+address = "Hampton Roads"
+mobile = "757-555-5557"
+email = "info@757colorcoded.org"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 # Google Analitycs
@@ -118,9 +118,9 @@ languageCode = "en-us"
 contentDir = "content/english"
 weight = 1
 home = "Home"
-# copyright
+# copyrights
 copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
-
+copyright2= "&copy; Copyright 2021 - 757ColorCoded"
 
 
 ################### English navigation ####################
@@ -128,53 +128,47 @@ copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefi
 # main menu
 [[Languages.en.menu.main]]
 name = "About"
-url = "about"
 weight = 1
-
-[[Languages.en.menu.main]]
-name = "course"
-url = "course"
-weight = 2
-
-[[Languages.en.menu.main]]
-weight = 3
-name = "Pages"
 hasChildren = true
 
   [[Languages.en.menu.main]]
-  parent = "Pages"
-  name = "teacher"
+  parent = "About"
+  name = "About Us"
+  url = "about"
+  weight = 1
+
+  [[Languages.en.menu.main]]
+  parent = "About"
+  name = "Our Mission"
+  url = "about"
+  weight = 2
+
+  [[Languages.en.menu.main]]
+  parent = "About"
+  name = "Our Team"
   url = "teacher"
+  weight = 3
 
   [[Languages.en.menu.main]]
-  parent = "Pages"
-  name = "notice"
+  parent = "About"
+  name = "New Here?"
   url = "notice"
-
-  [[Languages.en.menu.main]]
-  parent = "Pages"
-  name = "event"
-  url = "event"
-
-  [[Languages.en.menu.main]]
-  parent = "Pages"
-  name = "scholarship"
-  url = "scholarship"
-
-  [[Languages.en.menu.main]]
-  parent = "Pages"
-  name = "research"
-  url = "research"
+  weight = 4
   
 [[Languages.en.menu.main]]
-name = "blog"
+name = "News"
 url = "blog"
-weight = 4
+weight = 2
   
+[[Languages.en.menu.main]]
+name = "COVID-19 Info & Resources"
+url = "research"
+weight = 3
+
 [[Languages.en.menu.main]]
 name = "Contact"
 url = "contact"
-weight = 5
+weight = 4
 
 
 # footer menu
@@ -192,8 +186,8 @@ name = "event"
 url = "event"
 
 [[Languages.en.menu.footer]]
-name = "scholarship"
-url = "scholarship"
+name = "Our Mission"
+url = "about"
 
 [[Languages.en.menu.footer]]
 name = "research"
