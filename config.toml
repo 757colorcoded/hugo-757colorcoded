@@ -44,7 +44,7 @@ link = "plugins/google-map/gmap.js"
 
 #################### default parameters ################################
 [params]
-logo = "images/logo.png"
+logo = "images/757CC_small_logo.png"
 # Meta data
 description = "This is meta description"
 author = "Themefisher"
@@ -163,8 +163,8 @@ hasChildren = true
 
   [[Languages.en.menu.main]]
   parent = "Pages"
-  name = "research"
-  url = "research"
+  name = "allyship"
+  url = "allyship"
   
 [[Languages.en.menu.main]]
 name = "blog"
@@ -196,8 +196,8 @@ name = "scholarship"
 url = "scholarship"
 
 [[Languages.en.menu.footer]]
-name = "research"
-url = "research"
+name = "allyship"
+url = "allyship"
 
 
 

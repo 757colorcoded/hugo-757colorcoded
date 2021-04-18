@@ -9,15 +9,10 @@ image: "images/about/about-page.jpg"
 description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
 ---
 
-## ABOUT OUR JOURNY
+## ABOUT OUR MISSION
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-et.dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. Lorem ipsum dolor sit amet consectetur,
-adipisicing elit. Saepe ipsa illo quod veritatis, magni debitis fugiat dolore voluptates! Consequatur,
-aliquid. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat perferendis sint optio similique.
-Et amet magni facilis vero corporis quos.
+Software companies and those that employ tech workers continue to struggle with poor diversity numbers, going so far as to claim the talent isn’t there. We aim to help talented people of color access the knowledge, resources and networks they need to build their careers.
 
-exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum, dolor sit amet consectetur
-adipisicing elit. Ipsum a, facere fugit error accusamus est officiis vero in, nostrum laboriosam corrupti
-explicabo, cumque repudiandae deleniti perspiciatis quae consectetur enim. Laboriosam!
+757ColorCoded is a diverse group of technology professionals committed to being a part of the national effort to increase the presence of people of color (POC) in the tech talent space.
+
+Our goal is to accomplish this through establishing local partnerships and initiatives that will enable us to provide career guidance and mentorship as well as free workshops, courses, scholarships and other learning tools and resources for POC in the community.
