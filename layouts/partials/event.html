@@ -1,0 +1,28 @@
+<!-- event -->
+<div class="col-lg-4 col-sm-6 mb-5">
+  <div class="card border-0 rounded-0 hover-shadow">
+    <div class="card-img position-relative">
+      <img class="card-img-top rounded-0" src="/images/events/event-1.jpg" alt="{{ .name }}">
+      <div class="card-date">
+        <span>{{ dateFormat "02" .local_date }}</span><br>{{ dateFormat "Jan" .local_date }}</div>
+    </div>
+    <div class="card-body">
+      <!-- location -->
+      <p>
+        <i class="ti-time text-primary mr-2"></i>{{ .local_time | markdownify }}
+        <i class="ti-location-pin text-primary mr-2 ml-2"></i>{{ .group.localized_location | markdownify }}
+        {{ if eq .is_online_event true }}
+          <i class="ti-headphone-alt text-primary mr-2 ml-2"></i> Online
+        {{ end }}
+      </p>
+      <h4 class="card-title">
+        <a href="{{ .link }}">{{ .name }}</a>
+      </h4>
+      {{ htmlUnescape .description | safeHTML }}
+    </div>
+    <div class="pr-0 pr-md-4">
+      <a href="{{ .link }}" class="btn btn-primary">Register</a>
+    </div>
+  </div>
+</div>
+<!-- /event -->

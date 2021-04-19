@@ -6,13 +6,37 @@ bg_image: "images/backgrounds/page-title.jpg"
 # about image
 image: "images/about/about-page.jpg"
 # meta description
-description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
+description : "Software companies and those that employ tech workers continue to struggle with poor diversity numbers, going so far as to claim the talent isn’t there. We aim to help talented people of color access the knowledge, resources and networks they need to build their careers."
 ---
 
-## ABOUT OUR MISSION
+## OUR MISSION
 
-Software companies and those that employ tech workers continue to struggle with poor diversity numbers, going so far as to claim the talent isn’t there. We aim to help talented people of color access the knowledge, resources and networks they need to build their careers.
+*We exist to educate and empower local people of color to achieve careers in technology and improve their lives.**
 
-757ColorCoded is a diverse group of technology professionals committed to being a part of the national effort to increase the presence of people of color (POC) in the tech talent space.
+*We provide education by giving free classes and workshops in public venues as well as utilizing social media channels and the corporation website to provide resources for learning computer programming and other technical skills.*
 
-Our goal is to accomplish this through establishing local partnerships and initiatives that will enable us to provide career guidance and mentorship as well as free workshops, courses, scholarships and other learning tools and resources for POC in the community.
+Our Planned Programs ...
+
+**COMMUNITY**
+-Providing opportunities for community members to learn and practice technical skills with others
+
+**ONLINE RESOURCES**
+-Directing them to organized online resources to learn at home for free
+
+**TEACHING**
+-Hosting free technical classes and workshops
+
+**LIBRARY**
+-Offering a library of modern and relevant books on software development, project management and other topics
+
+**SPACE**
+-Designating a local makerspace for the community to freely access learning resources
+
+**SCHOLARSHIPS**
+-Providing scholarships for members of underrepresented groups to attend well-respected technical schools, bootcamps and conferences
+
+**JOB READINESS**
+-Interview preparation and job training
+
+**SPECIAL HELP**
+-Help for parents, the formerly incarcerated, and those in fields being replaced by automation

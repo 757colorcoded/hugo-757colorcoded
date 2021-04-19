@@ -1,0 +1,16 @@
+{{ define "main" }}
+
+  <!-- events -->
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        {{ $meetupData := getJSON "https://api.meetup.com/757colorcoded/events" }}
+        {{ range $meetupData }}
+          {{ partial "partials/event.html" . }}
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  <!-- /events -->
+
+{{ end }}
