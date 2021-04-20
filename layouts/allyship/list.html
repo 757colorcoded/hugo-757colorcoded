@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+<!-- allyship -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      {{ range .Data.Pages}}
+      <!-- recharch item -->
+      <div class="col-lg-3 col-sm-6 mb-4">
+        {{ .Render "allyship" }}</div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+<!-- /allyship -->
+
+{{ end }}
