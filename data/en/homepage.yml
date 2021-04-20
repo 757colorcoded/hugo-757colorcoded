@@ -4,7 +4,7 @@ slider:
   bg_image : "images/banner/banner-1.jpg"
   slider_item:
     # slider item loop
-    - title : "Your bright future is our mission"
+    - title : "757ColorCoded"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
       animation_in : "left"
       animation_out : "right"
@@ -121,19 +121,19 @@ funfacts:
   enable : true
   funfact_item:
     # funfact item loop
-    - name : "TEACHERS"
-      count : "60"
+    - name : "EVENTS"
+      count : "11"
 
     # funfact item loop
-    - name : "COURSES"
+    - name : "DISCUSSIONS"
       count : "50"
 
     # funfact item loop
-    - name : "STUDENTS"
-      count : "1000"
+    - name : "MEMBERS"
+      count : "337"
 
     # funfact item loop
-    - name : "SATISFIED CLIENT"
+    - name : "CAREERS IN TECH"
       count : "1400"
 
 # funfact is for about page
