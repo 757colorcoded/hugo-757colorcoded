@@ -453,6 +453,16 @@ textarea.form-control {
   @media (max-width: 991px) {
     .navigation {
       background: #575772; } }
+.img-fluid {
+  width: 13%;
+  height: auto; }
+
+#navbran {
+  font-weight: 600;
+  font-size: xx-large;
+  margin-left: 20px;
+  color: darkgray; }
+
 @media (max-width: 991px) {
   .navbar-collapse {
     background: #575772; } }

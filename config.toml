@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "http://757ColorCoded.org"
+baseURL = "https://test.757colorcoded.org"
 title = "757ColorCoded"
 theme = "educenter"
 themesDir = "./themes/"
@@ -11,6 +11,13 @@ summaryLength = "37"
 disqusShortname = "educenter" # get your shortname form here : https://disqus.com
 # disable language
 disableLanguages = ["fr"] # desable language from here
+
+######################## deployment configuration ####################
+[deployment]
+[[deployment.targets]]
+name = "s3deployment"
+URL = "s3://test.757colorcoded.org"
+cloudFrontDistributionID = "E3EJVQ9UU9P37R"
 
 
 ############################# Plugins ##############################
@@ -44,7 +51,7 @@ link = "plugins/google-map/gmap.js"
 
 #################### default parameters ################################
 [params]
-logo = "images/logo.png"
+logo = "images/favicon.png"
 # Meta data
 description = "This is meta description"
 author = "757ColorCoded Web Team"
