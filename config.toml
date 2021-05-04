@@ -166,17 +166,11 @@ hasChildren = true
 name = "News"
 url = "blog"
 weight = 2
-  
-[[Languages.en.menu.main]]
-name = "COVID-19 Info & Resources"
-url = "research"
-weight = 3
 
 [[Languages.en.menu.main]]
 name = "Contact"
 url = "contact"
 weight = 4
-
 
 # footer menu
 
