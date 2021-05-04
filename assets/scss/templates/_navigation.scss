@@ -20,15 +20,17 @@
 }
 
 .img-fluid{
-  width: 13%;
+  width: 12%;
   height: auto;
 }
 
 #navbran{
   font-weight: 600;
   font-size: xx-large;
-  margin-left: 20px;
-  color: darkgray;
+  -webkit-text-stroke-width: .7px;
+  -webkit-text-stroke-color: #413f3f;
+  margin-left: 38px;
+  color: #9f9f9f;
 }
 
 .navbar-collapse{

@@ -11,7 +11,7 @@ description : "Software companies and those that employ tech workers continue to
 
 ## OUR MISSION
 
-*We exist to educate and empower local people of color to achieve careers in technology and improve their lives.**
+*We exist to educate and empower local people of color to achieve careers in technology and improve their lives.*
 
 *We provide education by giving free classes and workshops in public venues as well as utilizing social media channels and the corporation website to provide resources for learning computer programming and other technical skills.*
 
