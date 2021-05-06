@@ -2,9 +2,9 @@
 title: "About Us"
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.jpg"
+bg_image: "images/backgrounds/page-title 3a.jpg"
 # about image
-image: "images/about/about-page.jpg"
+image: "images/about/about-page (2).jpg"
 # meta description
 description : "Software companies and those that employ tech workers continue to struggle with poor diversity numbers, going so far as to claim the talent isn’t there. We aim to help talented people of color access the knowledge, resources and networks they need to build their careers."
 ---

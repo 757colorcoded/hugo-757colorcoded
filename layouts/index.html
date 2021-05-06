@@ -13,11 +13,16 @@
       <div class="hero-slider-item">
         <div class="row">
           <div class="col-md-8">
-            <h1 class="text-white" data-animation-out="fadeOut{{.animation_out | title }}" data-delay-out="5" data-duration-in=".3"
-              data-animation-in="fadeIn{{.animation_in | title }}" data-delay-in=".1">{{ .title | markdownify }}</h1>
-            <p class="text-muted mb-4" data-animation-out="fadeOut{{.animation_out | title }}" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeIn{{.animation_in | title }}" data-delay-in=".4">{{ .content | markdownify }}</p>
+            <h1 class="text-white" data-animation-out="fadeOut{{.animation_out | title }}" data-delay-out="5"
+              data-duration-in=".3" data-animation-in="fadeIn{{.animation_in | title }}" data-delay-in=".1">{{ .title |
+              markdownify }}</h1>
+            <p class="text-muted mb-4" data-animation-out="fadeOut{{.animation_out | title }}" data-delay-out="5"
+              data-duration-in=".3" data-animation-in="fadeIn{{.animation_in | title }}" data-delay-in=".4">{{ .content
+              | markdownify }}</p>
             {{ if .button.enable }}
-            <a href="{{ .button.link | absLangURL }}" class="btn btn-primary" data-animation-out="fadeOut{{.animation_out | title }}" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeIn{{.animation_in | title }}" data-delay-in=".7">{{ .button.label }}</a>
+            <a href="{{ .button.link | absLangURL }}" class="btn btn-primary"
+              data-animation-out="fadeOut{{.animation_out | title }}" data-delay-out="5" data-duration-in=".3"
+              data-animation-in="fadeIn{{.animation_in | title }}" data-delay-in=".7">{{ .button.label }}</a>
             {{ end }}
           </div>
         </div>
@@ -94,7 +99,8 @@
           <h2 class="mb-0 text-nowrap mr-3">{{ $data.homepage.course.title }}</h2>
           <div class="border-top w-100 border-primary d-none d-sm-block"></div>
           <div>
-            <a href="{{ `course` | relLangURL }}" class="btn btn-sm btn-outline-primary ml-sm-3 d-none d-sm-block">{{ i18n "see_all" }}</a>
+            <a href="{{ `course` | relLangURL }}" class="btn btn-sm btn-outline-primary ml-sm-3 d-none d-sm-block">{{
+              i18n "see_all" }}</a>
           </div>
         </div>
       </div>
@@ -112,7 +118,8 @@
     <!-- mobile see all button -->
     <div class="row">
       <div class="col-12 text-center">
-        <a href="{{ `course` | relLangURL }}" class="btn btn-sm btn-outline-primary d-sm-none d-inline-block">{{ i18n "see_all" }}</a>
+        <a href="{{ `course` | relLangURL }}" class="btn btn-sm btn-outline-primary d-sm-none d-inline-block">{{ i18n
+          "see_all" }}</a>
       </div>
     </div>
   </div>
@@ -157,7 +164,8 @@
           <h2 class="mb-0 text-nowrap mr-3">Upcoming Events</h2>
           <div class="border-top w-100 border-primary d-none d-sm-block"></div>
           <div>
-            <a href="https://meetup.com/757colorcoded" class="btn btn-sm btn-outline-primary ml-sm-3 d-none d-sm-block">{{ i18n "see_all" }}</a>
+            <a href="https://meetup.com/757colorcoded"
+              class="btn btn-sm btn-outline-primary ml-sm-3 d-none d-sm-block">{{ i18n "see_all" }}</a>
           </div>
         </div>
       </div>
@@ -166,7 +174,7 @@
     <div class="row">
       {{ $meetupData := getJSON "https://api.meetup.com/757colorcoded/events" }}
       {{ range first 6 $meetupData }}
-        {{ partial "partials/event.html" . }}
+      {{ partial "partials/event.html" . }}
       {{ end }}
     </div>
   </div>

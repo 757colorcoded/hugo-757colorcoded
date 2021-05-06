@@ -157,9 +157,9 @@ hasChildren = true
   weight = 3
 
   [[Languages.en.menu.main]]
-  parent = "About"
-  name = "New Here?"
-  url = "notice"
+  parent = "Pages"
+  name = "allyship"
+  url = "allyship"
   weight = 4
   
 [[Languages.en.menu.main]]
@@ -191,8 +191,8 @@ name = "Our Mission"
 url = "about"
 
 [[Languages.en.menu.footer]]
-name = "research"
-url = "research"
+name = "allyship"
+url = "allyship"
 
 
 

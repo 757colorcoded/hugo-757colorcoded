@@ -8,3 +8,4 @@ Contributors:
 * [Elvin Ridley](https://github.com/egrid3)
 * [Chazona Baum](https://github.com/chznbaum)
 * [Tonia Seenauth](https://github.com/ToniaSeenauth)
+* Guillermo Fisher
