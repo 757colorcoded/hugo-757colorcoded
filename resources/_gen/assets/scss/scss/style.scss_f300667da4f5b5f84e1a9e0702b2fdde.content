@@ -438,6 +438,11 @@ textarea.form-control {
   width: 85px;
   object-fit: cover; }
 
+.allyship-bar {
+  background-color: #251002ff;
+  color: #fff;
+  font-weight: 600; }
+
 .top-header {
   font-size: 12px;
   transition: transform .2s ease;
