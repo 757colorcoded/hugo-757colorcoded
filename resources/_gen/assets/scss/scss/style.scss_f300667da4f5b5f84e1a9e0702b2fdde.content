@@ -787,6 +787,10 @@ link:focus,
   border-color: #494a43 !important;
   padding-top: 275px; }
 
+.card-img-top {
+  object-fit: cover;
+  height: 350px; }
+
 /* /footer */
 .filter-controls li {
   cursor: pointer;
