@@ -1,0 +1,22 @@
+{
+  "name": "hugo-757colorcoded",
+  "version": "1.0.0",
+  "description": "[![Hugo S3](https://github.com/757colorcoded/hugo-757colorcoded/actions/workflows/deploy.yml/badge.svg)](https://github.com/757colorcoded/hugo-757colorcoded/actions/workflows/deploy.yml)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ToniaSeenauth/hugo-757colorcoded.git"
+  },
+  "author": "tonia seenauth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ToniaSeenauth/hugo-757colorcoded/issues"
+  },
+  "homepage": "https://github.com/ToniaSeenauth/hugo-757colorcoded#readme",
+  "devDependencies": {
+    "cypress": "^7.3.0"
+  }
+}
