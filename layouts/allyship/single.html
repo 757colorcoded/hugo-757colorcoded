@@ -5,18 +5,21 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h2 class="section-title">{{ .Title }}</h2>
+        <h2 class="section-title text-center">{{ .Title }}</h2>
       </div>
       <!-- allyship image -->
       <div class="col-12 mb-4">
-        <img style="height: 500px;width: 100%;object-fit: cover;" src="{{ .Params.image | relURL }}" alt="{{ .Title }}" class="img-fluid w-100">
+        <img
+          style="height: 500px; width: 100%; object-fit: cover"
+          src="{{ .Params.image | relURL }}"
+          alt="{{ .Title }}"
+          class="img-fluid w-100"
+        />
       </div>
     </div>
     <!-- allyship details -->
     <div class="row">
-      <div class="col-12 mb-50 content">
-        {{ .Content }}
-      </div>
+      <div class="col-12 mb-50 content">{{ .Content }}</div>
     </div>
   </div>
 </section>
